@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DeltaRobotServer", "DeltaRobotServer\DeltaRobotServer.pyproj", "{462D3DFC-D2A9-4606-91DA-64A3A4F51717}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inversekinematics", "Inverskinematics\Inverskinematics.vcxproj", "{512BE2B1-36E9-49A8-BF05-A40DE6B1D516}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{462D3DFC-D2A9-4606-91DA-64A3A4F51717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462D3DFC-D2A9-4606-91DA-64A3A4F51717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462D3DFC-D2A9-4606-91DA-64A3A4F51717}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{462D3DFC-D2A9-4606-91DA-64A3A4F51717}.Debug|x64.Build.0 = Debug|Any CPU
+		{462D3DFC-D2A9-4606-91DA-64A3A4F51717}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{462D3DFC-D2A9-4606-91DA-64A3A4F51717}.Debug|x86.Build.0 = Debug|Any CPU
+		{462D3DFC-D2A9-4606-91DA-64A3A4F51717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462D3DFC-D2A9-4606-91DA-64A3A4F51717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462D3DFC-D2A9-4606-91DA-64A3A4F51717}.Release|x64.ActiveCfg = Release|Any CPU
+		{462D3DFC-D2A9-4606-91DA-64A3A4F51717}.Release|x64.Build.0 = Release|Any CPU
+		{462D3DFC-D2A9-4606-91DA-64A3A4F51717}.Release|x86.ActiveCfg = Release|Any CPU
+		{462D3DFC-D2A9-4606-91DA-64A3A4F51717}.Release|x86.Build.0 = Release|Any CPU
+		{512BE2B1-36E9-49A8-BF05-A40DE6B1D516}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{512BE2B1-36E9-49A8-BF05-A40DE6B1D516}.Debug|x64.ActiveCfg = Debug|x64
+		{512BE2B1-36E9-49A8-BF05-A40DE6B1D516}.Debug|x64.Build.0 = Debug|x64
+		{512BE2B1-36E9-49A8-BF05-A40DE6B1D516}.Debug|x86.ActiveCfg = Debug|Win32
+		{512BE2B1-36E9-49A8-BF05-A40DE6B1D516}.Debug|x86.Build.0 = Debug|Win32
+		{512BE2B1-36E9-49A8-BF05-A40DE6B1D516}.Release|Any CPU.ActiveCfg = Release|Win32
+		{512BE2B1-36E9-49A8-BF05-A40DE6B1D516}.Release|x64.ActiveCfg = Release|x64
+		{512BE2B1-36E9-49A8-BF05-A40DE6B1D516}.Release|x64.Build.0 = Release|x64
+		{512BE2B1-36E9-49A8-BF05-A40DE6B1D516}.Release|x86.ActiveCfg = Release|Win32
+		{512BE2B1-36E9-49A8-BF05-A40DE6B1D516}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A31659A9-D28A-4B68-A923-3477D676464E}
+	EndGlobalSection
+EndGlobal
