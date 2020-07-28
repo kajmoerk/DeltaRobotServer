@@ -11,6 +11,12 @@ The DeltaRobotServer works with the DeltaController: https://github.com/kajmoerk
 * Teach linear point to point.
 * Teach circular point to point.
 * Trajectory planning
+## Test and edit in Visual Studio:
+Clone the repository and open the "DeltaRobotServer.sln". A new Python enviroment will have to be created and dependencies needs to be installed.
+Edit the Inversekinematics.cpp in the Inversekinematics folder, if needed. 
+## Test and edit without Visual Studio:
+Clone the repository and run "setup.py", to install dependencies and then run "runserver.py" to start the server.
+The Inversekinematics folder can be ignored, instead the Inversekinematics.cpp in DeltarobotServer/DeltarobotServer/HelloFlask/src/ should be edited, if needed.
 ## References:
 Computations are based on inverse kinematics from:
 R.L. Williams II, “The Delta Parallel Robot: Kinematics Solutions”, Internet Publication,
