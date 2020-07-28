@@ -1,1 +1,4 @@
 flask
+pybind11
+flask-socketio
+eventlet

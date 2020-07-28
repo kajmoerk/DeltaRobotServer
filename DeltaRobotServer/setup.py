@@ -101,6 +101,6 @@ setup(
     cmdclass={'build_ext': BuildExt},
     zip_safe=False,
     packages=['HelloFlask'],
-    install_requires=['Flask', 'pybind11','flask-socketio']
+    install_requires=['Flask', 'pybind11','flask-socketio', 'eventlet', ]
 
     )
